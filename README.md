@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Real-Estate
 
-## Getting Started
+This platform offers a solution for renting or buying real estate properties. Property owners can easily list their properties, while users have the flexibility to explore and select from a diverse range of options. Additionally, users can purchase subscription plans (Basic, Standard, Premium) to access exclusive features and benefits.
 
-First, run the development server:
+### Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<!-- TOC_START -->
+| No. | Questions |
+| --- | --------- |
+| 1 | Tech Stack |
+| 2 | Key Features |
+| 3 | Screenshots|
+<!-- TOC_END -->
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Tech Stack
+- Frontend : Next.js 15
+- Backend : Next.js 15
+- Authentication : KindeAuth
+- Database : Supabase
+- ORM : Prisma
+- Styling : TailwindCSS
+- pre-built UI components : NextUI
+- Payment - Stripe
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+### 🔑 Key Features
+-🛠️ Admin Access
+-🏠 User Property Purchase
+-📄 Detailed Property Description
+-💳 Subscription Plans
+-⏩ Pagination
+-📱 Responsive Design
+-🚀 Scalable Server and Schema
+-🗂️ Scalable Folder Structure
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Desktop View Screenshots
+![Screenshot 2024-12-27 185846](https://github.com/user-attachments/assets/5ace4a30-dd06-4bf2-af57-95954860850a)
+![Screenshot 2024-12-27 190146](https://github.com/user-attachments/assets/4cf6cdaf-d2ef-4370-845b-fb376ebc430b)
+![Screenshot 2024-12-27 185934](https://github.com/user-attachments/assets/59b2f1db-368d-4ba9-906d-3ad42f472f44)
+![Screenshot 2024-12-27 190018](https://github.com/user-attachments/assets/2d0ce501-95e1-4360-b9b7-cceca27dadd4)
